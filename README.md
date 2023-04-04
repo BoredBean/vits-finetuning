@@ -12,7 +12,7 @@ See [vits-finetuning](https://colab.research.google.com/drive/13FF2pBWxj9rMR1SjI
 Only Japanese datasets can be used for fine-tuning in this repo.
 ## Clone this repository
 ```sh
-git clone https://github.com/BoredBean/vits-finetuning.git
+git clone --single-branch --branch master https://github.com/BoredBean/vits-finetuning.git
 ```
 ## Install requirements
 ```sh
