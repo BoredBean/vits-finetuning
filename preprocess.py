@@ -7,7 +7,7 @@ if __name__ == '__main__':
   parser.add_argument("--out_extension", default="cleaned")
   parser.add_argument("--text_index", default=2, type=int)
   parser.add_argument("--filelists", nargs="+", default=["filelists/warma_train.txt", "filelists/warma_val.txt"])
-  parser.add_argument("--text_cleaners", nargs="+", default=["chinese_cleaners"])
+  parser.add_argument("--text_cleaners", nargs="+", default=["chinese_dialect_cleaners"])
 
   args = parser.parse_args()
     
